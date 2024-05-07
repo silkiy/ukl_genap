@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 class MyContainer extends StatelessWidget {
   final double setHeight;
   final imageBenner;
-  const MyContainer({super.key, required this.setHeight, required this.imageBenner});
-  
+  const MyContainer(
+      {super.key, required this.setHeight, required this.imageBenner});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class MyContainer extends StatelessWidget {
             )
           ],
         ),
-        child: Image.network(imageBenner),
+        child: Image.asset(imageBenner),
       ),
     );
   }

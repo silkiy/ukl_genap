@@ -14,7 +14,7 @@ class MyHeader extends StatelessWidget {
         color: Color.fromRGBO(250, 218, 94, 1.0),
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(20),
-          bottomRight: Radius.circular(20),
+          bottomRight: Radius.circular(0),
         ),
       ),
       child: Padding(

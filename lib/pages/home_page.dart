@@ -7,6 +7,7 @@ import 'package:ukl_genap/components/my_financial_partner.dart';
 import 'package:ukl_genap/components/my_official_partner.dart';
 import 'package:ukl_genap/components/my_leading.dart';
 import 'package:ukl_genap/components/my_stack.dart';
+import 'package:ukl_genap/components/my_tips.dart';
 import 'package:ukl_genap/components/my_title.dart';
 import 'package:ukl_genap/components/my_title_section.dart';
 
@@ -33,7 +34,7 @@ class _HomePageState extends State<HomePage> {
             SizedBox(height: 50),
             MyContainer(
               setHeight: 200,
-              imageBenner: "https://d28ezb6jlurwrr.cloudfront.net/blog_images/489/1638083483.png",
+              imageBenner: "images/banners/1.png",
             ),
             SizedBox(height: 20),
             MyTitleSection(
@@ -50,7 +51,7 @@ class _HomePageState extends State<HomePage> {
             SizedBox(height: 10),
             MyContainer(
               setHeight: 200,
-              imageBenner: "https://d28ezb6jlurwrr.cloudfront.net/blog_images/490/1638447179.png",
+              imageBenner: "images/banners/2.png",
             ),
             SizedBox(height: 50),
             MyTitleSection(
@@ -65,7 +66,7 @@ class _HomePageState extends State<HomePage> {
               subTitle: "",
             ),
             SizedBox(height: 10),
-            MyBerita(),
+            MyTips(),
           ],
         ),
       ),

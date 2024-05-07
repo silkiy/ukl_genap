@@ -27,7 +27,7 @@ class MyPartnerItem extends StatelessWidget {
           )
         ],
       ),
-      child: Image.network(imagePartner),
+      child: Image.asset(imagePartner),
     );
   }
 }

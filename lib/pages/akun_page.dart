@@ -112,33 +112,40 @@ class _AkunPageState extends State<AkunPage> {
             decoration: BoxDecoration(color: Colors.white),
             child: Column(
               children: [
-                Row(
-                  children: [
-                    Container(
-                      margin: EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                          border: Border.all(width: 2),
-                          color: Colors.black,
-                          shape: BoxShape.circle),
-                      child: CircleAvatar(
-                        radius: 30,
-                        child: Icon(
-                          Icons.home_work_outlined,
-                          size: 40,
-                        ),
+                Padding(
+                  padding: const EdgeInsets.only(right: 12.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Row(
+                        children: [
+                          Container(
+                            margin: EdgeInsets.all(12),
+                            decoration: BoxDecoration(
+                                border: Border.all(width: 2),
+                                color: Colors.black,
+                                shape: BoxShape.circle),
+                            child: CircleAvatar(
+                              radius: 30,
+                              child: Icon(
+                                Icons.home_work_outlined,
+                                size: 40,
+                              ),
+                            ),
+                          ),
+                          SizedBox(width: 5),
+                          Text(
+                            "Daftar Alamat",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
+                        ],
                       ),
-                    ),
-                    SizedBox(width: 5),
-                    Text(
-                      "Daftar Alamat",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
-                    SizedBox(width: 180),
-                    Icon(Icons.arrow_forward_ios_outlined)
-                  ],
+                      Icon(Icons.arrow_forward_ios_outlined)
+                    ],
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(12.0),
@@ -146,33 +153,40 @@ class _AkunPageState extends State<AkunPage> {
                     color: Colors.grey,
                   ),
                 ),
-                Row(
-                  children: [
-                    Container(
-                      margin: EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                          border: Border.all(width: 2),
-                          color: Colors.black,
-                          shape: BoxShape.circle),
-                      child: CircleAvatar(
-                        radius: 30,
-                        child: Icon(
-                          Icons.warning_amber,
-                          size: 40,
-                        ),
+                Padding(
+                  padding: const EdgeInsets.only(right: 12.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Row(
+                        children: [
+                          Container(
+                            margin: EdgeInsets.all(12),
+                            decoration: BoxDecoration(
+                                border: Border.all(width: 2),
+                                color: Colors.black,
+                                shape: BoxShape.circle),
+                            child: CircleAvatar(
+                              radius: 30,
+                              child: Icon(
+                                Icons.warning_amber,
+                                size: 40,
+                              ),
+                            ),
+                          ),
+                          SizedBox(width: 5),
+                          Text(
+                            "Ketentuan Layanan",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
+                        ],
                       ),
-                    ),
-                    SizedBox(width: 5),
-                    Text(
-                      "Ketentuan Layanan",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
-                    SizedBox(width: 130),
-                    Icon(Icons.arrow_forward_ios_outlined)
-                  ],
+                      Icon(Icons.arrow_forward_ios_outlined)
+                    ],
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(12.0),

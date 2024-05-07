@@ -12,12 +12,22 @@ class MyBerita extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
         children: [
-          MyBeritaItem(),
-          MyBeritaItem(),
-          MyBeritaItem(),
-          MyBeritaItem(),
-          MyBeritaItem(),
-          MyBeritaItem(),
+          MyBeritaItem(
+            tanggal: "12-40-4090",
+            imageBerita: "images/banners/1.png",
+            judul: "Mahall bangett",
+            subTitle: "barang rusak tidak berkualitas",
+          ),
+          MyBeritaItem(
+            tanggal: "12-40-4090",
+            imageBerita: "images/banners/3.png",
+            judul: "Mahall bangett",
+            subTitle: "barang rusak tidak berkualitas",
+          ),
+          // MyBeritaItem(),
+          // MyBeritaItem(),
+          // MyBeritaItem(),
+          // MyBeritaItem(),
         ],
       ),
     );

@@ -14,23 +14,23 @@ class MyFinancialPartner extends StatelessWidget {
         children: [
           MyPartnerItem(
             imagePartner:
-                "https://d1vp0pqf03qs8y.cloudfront.net/merchant_images/18/1554888546.png",
+                "images/partner/6.png",
           ),
           MyPartnerItem(
             imagePartner:
-                "https://d1vp0pqf03qs8y.cloudfront.net/merchant_images/21/1575014678.png",
+                "images/partner/7.png",
           ),
           MyPartnerItem(
             imagePartner:
-                "https://d1vp0pqf03qs8y.cloudfront.net/merchant_images/28/1647455059.png",
+                "images/partner/8.png",
           ),
           MyPartnerItem(
             imagePartner:
-                "https://d1vp0pqf03qs8y.cloudfront.net/merchant_images/24/1582105597.png",
+                "images/partner/9.png",
           ),
           MyPartnerItem(
             imagePartner:
-                "https://d1vp0pqf03qs8y.cloudfront.net/merchant_images/17/1554887062.png",
+                "images/partner/10.png",
           ),
         ],
       ),

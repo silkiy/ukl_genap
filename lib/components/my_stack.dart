@@ -12,7 +12,7 @@ class MyStack extends StatelessWidget {
       children: [
         MyHeader(),
         Padding(
-          padding: EdgeInsets.only(top: 120),
+          padding: EdgeInsets.only(top: 140),
           child: Center(
             child: Container(
               height: 220,
